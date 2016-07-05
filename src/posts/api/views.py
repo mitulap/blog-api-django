@@ -24,7 +24,6 @@ from rest_framework.permissions import (
 from posts.models import Post
 
 from .pagination import PostLimitOffsetPagination, PostPageNumberPagination
-
 from .permissions import IsOwnerOrReadOnly
 
 from .serializers import (
